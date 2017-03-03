@@ -1,0 +1,14 @@
+body {
+    background-color:$mainWhite;
+    color: azure;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}

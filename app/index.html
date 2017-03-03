@@ -6,8 +6,61 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Game Design</title>
+    <link rel="stylesheet"
+          href="temp/styles/styles.css">
 </head>
 <body>
+<div class="large-hero">
+    <picture>
+        <img srcset="assets/images/KV-BG.jpg 1920w"
+             alt="" class="large-hero__image">
+    </picture>
+    <div class="large-hero__main-KV">
+        <img srcset="assets/images/mainKV.png"
+             alt="" class="large-hero__image">
+    </div>
+</div>
 
+<section
+        class="form page-section--small page-section--gray">
+    <div class="wrapper">
+        <div class="row">
+            <h1 class="headline headline--centered headline--t-margin-small"><i class="fa fa-hand-o-right fa-2x"
+                                                                                aria-hidden="true"></i>&nbsp;線上登記索取課程簡章 免費領取遊戲設計體驗課程</h1>
+            <div class="row__medium-6">
+                <img src="assets/images/gift-12000.png"
+                     alt="線上課程12000堂">
+            </div>
+            <div class="row__medium-6">
+                <form class="form-signin" role="form">
+
+                        <input class="form-control name" type="text" id="name" placeholder="姓名" >
+                        <input class="form-control tel" type="text" id="mobile" placeholder="電話" >
+                        <input class="form-control" type="text" id="email" placeholder="Email" >
+                    <div class="row row--gutters">
+                        <div class="row__medium-6">
+                            <select class="form-control A" id="ddl_city_no"></select>
+                        </div>
+                        <div class="row__medium-6">
+                            <select class="form-control B"
+                                    id="ddl_area_no"></select>
+                        </div>
+                    </div>
+                    <div class="checkbox row">
+                        <input class="checkbox"  name="per_chk" type="checkbox">我已詳細閱讀並接受 <a onclick="window.open('http://www.pcschool.com.tw/member/Message.html','person',config='height=640,width=830');return false;" href="#">個資保護聲明</a>
+                    </div>
+                </form>
+
+                <p class="text-center">
+                    <a class="btn btn--large"
+                       id="sBut" onClick="but_send();">馬上預約</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="/temp/scripts/App.js"></script>
 </body>
 </html>

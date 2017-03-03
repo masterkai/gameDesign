@@ -1,13 +1,13 @@
-$mainBlue: #195963;
-body {
-    background-color:$mainBlue;
-    padding: 10px;
-    columns: 300px 2;
-}
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_global";
+@import "base/_mixins";
+@import "modules/_large-hero";
+@import "modules/_wrapper";
+@import "modules/_btn";
+@import "modules/_form";
+@import "modules/_page-section";
+@import "modules/_headline";
+@import "modules/_row";
 
-.box {
-    a {
-    display: block;
-    padding: 10px;
-    }
-}
+

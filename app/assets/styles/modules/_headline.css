@@ -1,0 +1,17 @@
+.headline {
+    font-weight:700;
+    font-size:1.8rem;
+    line-height: 2.75rem;
+
+    @mixin atSmall {
+        font-size:3.10937rem;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--t-margin-small {
+        margin-top: .2em;
+    }
+}
