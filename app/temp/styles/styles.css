@@ -461,9 +461,9 @@ template {
 }
 
 body {
-    background-color:#fff;
+    background-color: #fff;
     color: azure;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Microsoft YaHei', 'LiHei Pro', 'Noto Sans TC', sans-serif;
 }
 
 img {
@@ -500,15 +500,15 @@ img {
 }
 
 .btn {
-  background-color: #00AADD;
-  color: #FFF;
-  text-decoration: none;
-  padding: .75rem 1.2rem;
-  display: inline-block;
-  width:100%;
-  text-align: center;
-  box-sizing: border-box;
-
+    background-color: #00AADD;
+    color: #FFF;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
 }
 
 .btn--orange {
@@ -606,15 +606,21 @@ textarea.form-control {
 }
 
 .headline {
-    font-weight:700;
-    font-size:1.8rem;
-    line-height: 2.75rem;
+    font-weight: 500;
+    font-size: 1.35rem;
+    letter-spacing: .35rem;
+    line-height: 2.25rem;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (min-width: 530px) {
 
   .headline {
-    font-size: 3.10937rem;
+    font-size: 2.85rem;
+    letter-spacing: .35rem;
+    line-height: 3.4rem;
   }
 }
 

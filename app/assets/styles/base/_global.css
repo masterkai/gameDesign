@@ -1,7 +1,7 @@
 body {
-    background-color:$mainWhite;
+    background-color: $mainWhite;
     color: azure;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Microsoft YaHei', 'LiHei Pro', 'Noto Sans TC', sans-serif;
 }
 
 img {
