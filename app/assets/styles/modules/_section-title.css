@@ -8,6 +8,10 @@
 		margin-top: 0;
 	}
 
+	&--big-t-margin {
+		margin-top: 8rem;
+	}
+
 	&__icon {
 		margin-right: .5rem;
 		width: 4.6875rem;

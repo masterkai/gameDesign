@@ -692,7 +692,8 @@ textarea.form-control {
 }
 
 .generic-content-container p {
-  line-height:1.65;
+  line-height:2;
+  font-size: 1.25rem;
   margin:1.8rem 0;
 }
 
@@ -736,6 +737,10 @@ textarea.form-control {
   margin-top: 0;
 }
 
+.section-title--big-t-margin {
+  margin-top: 8rem;
+}
+
 .section-title__icon {
   margin-right: .5rem;
   width: 4.6875rem;
@@ -750,5 +755,20 @@ textarea.form-control {
           transform:translateY(.625rem);
 }
 
-.feature--game-planning {}
+.features {
+
+	position: relative;
+}
+
+.features--game-planning {
+  background-image: url(/assets/images/GamePlanningBg.png);
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+}
+
+.features__img1 {
+  width: 33.111rem;
+  display: block;
+  bottom: 0;
+}
 

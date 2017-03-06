@@ -1,5 +1,16 @@
-.feature {
+.features {
+
+	position: relative;
+
 	&--game-planning {
-		
+		background-image: url(/assets/images/GamePlanningBg.png);
+		background-repeat:no-repeat;
+    	background-position:50% 50%;
+
+	}
+	&__img1 {
+		width: 33.111rem;
+		display: block;
+		bottom: 0;
 	}
 }
