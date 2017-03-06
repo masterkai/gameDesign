@@ -13,4 +13,9 @@
     background-color: $mainGray;
     color: $mainWhite;
     }
+
+    &--black {
+    background-color: $mainBlack;
+    color: $mainWhite;
+    }
 }
