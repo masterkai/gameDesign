@@ -1,0 +1,22 @@
+.section-title {
+	font-size: 4.3125rem;
+	text-align: center;
+	color: $mainBlack;
+	font-weight: 500;
+
+	&--no-t-margin {
+		margin-top: 0;
+	}
+
+	&__icon {
+		margin-right: .5rem;
+		width: 4.6875rem;
+		transform:translateY(.625rem);
+	}
+	&__icon-left {
+		margin-left: .5rem;
+		width: 4.6875rem;
+		transform:translateY(.625rem);
+	}
+
+}
