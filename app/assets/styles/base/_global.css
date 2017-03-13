@@ -16,3 +16,29 @@ img {
 a {
     color: $mainBlue;
 }
+
+.text-center {
+	text-align: center;
+}
+.hidden-xs {
+	display: none;
+
+	@mixin atSmall {
+		display: block;
+	}
+}
+.hidden-md {
+	display: none;
+
+	@mixin atMedium {
+		display: block;
+	}
+}
+
+.white {
+	color: $mainWhite;
+}
+
+.no-t-margin {
+	margin-top: 0;
+}
