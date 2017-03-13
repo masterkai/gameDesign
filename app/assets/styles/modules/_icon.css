@@ -1,0 +1,16 @@
+.icon {
+	max-width: 2rem;
+	height: auto;
+
+	@mixin atSmall {
+		max-width: 3.2rem;
+	}
+
+	@mixin atMedium {
+		max-width: 5rem;
+	}
+
+	@mixin atLarge {
+		max-width: 7rem;
+	}
+}
