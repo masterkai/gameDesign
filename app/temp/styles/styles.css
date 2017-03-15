@@ -505,12 +505,45 @@ a {
   }
 }
 
+.visible-xs {
+	display: block;
+}
+
+@media (min-width: 530px) {
+
+  .visible-xs {
+    display: none;
+  }
+}
+
+.visible-sm {
+	display: block;
+}
+
+@media (min-width: 800px) {
+
+  .visible-sm {
+    display: none;
+  }
+}
+
 .white {
 	color: #fff;
 }
 
 .no-t-margin {
 	margin-top: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.line {
+	border-bottom: 1px solid #1e1e1e;
+	width: 100%;
 }
 
 .large-hero {
@@ -759,11 +792,27 @@ textarea.form-control {
   }
 }
 
+.generic-content-container--gray {
+  max-width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #969691;
+}
+
+@media (min-width: 530px) {
+
+  .generic-content-container--gray {
+    max-width: 800px;
+    font-size: 1.125rem;
+    font-weight: 100;
+  }
+}
+
 .generic-content-container p {
   line-height:2;
-  font-size: 1.25rem;
+  font-size: .75rem;
   margin:1.8rem 0;
-  font-weight:300;
+  font-weight:100;
 }
 
 @media (min-width: 530px) {
@@ -992,12 +1041,15 @@ textarea.form-control {
 .features {
 
 	position: relative;
+
+
 }
 
 .features--game-planning {
   background-image: url(/assets/images/GamePlanningBg.png);
   background-repeat:repeat;
   background-position:50% 50%;
+  background-size: cover;
 }
 
 .features--2DGameArt {
@@ -1017,12 +1069,14 @@ textarea.form-control {
   background-image: url(/assets/images/3DGameArtBg-small.png);
   background-repeat:repeat;
   background-position:50% 50%;
+  background-size: cover;
 }
 
 @media (min-width: 530px) {
 
   .features--3DGameArt {
     background-image: url(/assets/images/3DGameArtBg.png);
+    background-size: cover;
   }
 }
 
@@ -1048,6 +1102,12 @@ textarea.form-control {
 .features__description {
   background-color: #fff;
   border-radius: 5px;
+}
+
+.features__description--no-t-padding {
+  margin-top: 0px;
+  font-size: .75rem;
+  padding: 0 20px 0 20px;
 }
 
 .icon {

@@ -35,10 +35,34 @@ a {
 	}
 }
 
+.visible-xs {
+	display: block;
+
+	@mixin atSmall {
+		display: none;
+	}
+}
+
+.visible-sm {
+	display: block;
+
+	@mixin atMedium {
+		display: none;
+	}
+}
+
 .white {
 	color: $mainWhite;
 }
 
 .no-t-margin {
 	margin-top: 0;
+}
+
+.clearfix {
+	@mixin clearfix;
+}
+.line {
+	border-bottom: 1px solid #1e1e1e;
+	width: 100%;
 }
