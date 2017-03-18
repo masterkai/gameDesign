@@ -34,6 +34,11 @@ a {
 		display: block;
 	}
 }
+.hidden-xs-l {
+	@mixin fromXStoL {
+		display: none;
+	}
+}
 
 .visible-xs {
 	display: block;
@@ -48,6 +53,14 @@ a {
 
 	@mixin atMedium {
 		display: none;
+	}
+}
+
+.visible-xs-l {
+	display: none;
+
+	@mixin fromXStoL {
+		display: block;
 	}
 }
 

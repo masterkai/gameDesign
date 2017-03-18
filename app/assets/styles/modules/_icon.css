@@ -1,16 +1,19 @@
 .icon {
-	max-width: 2rem;
-	height: auto;
+	display: block;
+	margin: 0 auto;
+	transform: scale(.5);
+	transform-origin: 25% 100%;
+
 
 	@mixin atSmall {
-		max-width: 3.2rem;
+		transform: scale(.65);
 	}
 
 	@mixin atMedium {
-		max-width: 5rem;
+		transform: scale(.8);
 	}
 
 	@mixin atLarge {
-		max-width: 7rem;
+		transform: scale(1);
 	}
 }

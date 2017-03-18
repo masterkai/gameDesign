@@ -1,0 +1,130 @@
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon-add {
+    background-image: url('/assets/images/sprites/sprite-36e3ab1c.svg');
+}
+
+.no-svg .icon-add {
+    background-image: url('/assets/images/sprites/sprite-36e3ab1c.png');
+}
+
+.icon--3DArmorModeling {
+width: 114px;
+height: 114px;
+background-position: 25% 0;
+}
+
+.icon--3DCharacters {
+width: 114px;
+height: 114px;
+background-position: 75% 33.333333333333336%;
+}
+
+.icon--3DMonsterModeling {
+width: 114px;
+height: 114px;
+background-position: 0 33.333333333333336%;
+}
+
+.icon--VR360Camera {
+width: 114px;
+height: 114px;
+background-position: 25% 33.333333333333336%;
+}
+
+.icon--VRGameDevelopment {
+width: 114px;
+height: 114px;
+background-position: 50% 0;
+}
+
+.icon--VRGameEngine {
+width: 114px;
+height: 114px;
+background-position: 50% 33.333333333333336%;
+}
+
+.icon--VRGameInterface {
+width: 114px;
+height: 114px;
+background-position: 0 66.66666666666667%;
+}
+
+.icon--bgCreation {
+width: 114px;
+height: 114px;
+background-position: 25% 66.66666666666667%;
+}
+
+.icon--characterDesign {
+width: 114px;
+height: 114px;
+background-position: 50% 66.66666666666667%;
+}
+
+.icon--crossPlatFormApp {
+width: 114px;
+height: 114px;
+background-position: 75% 0;
+}
+
+.icon--gameDevelopment {
+width: 114px;
+height: 114px;
+background-position: 0 0;
+}
+
+.icon--gameEnvironmentDevelopment {
+width: 114px;
+height: 114px;
+background-position: 75% 66.66666666666667%;
+}
+
+.icon--gameFX {
+width: 114px;
+height: 114px;
+background-position: 0 100%;
+}
+
+.icon--gameObjectOutput {
+width: 114px;
+height: 114px;
+background-position: 25% 100%;
+}
+
+.icon--gameSettingDesign {
+width: 114px;
+height: 114px;
+background-position: 50% 100%;
+}
+
+.icon--marketingAnalysis {
+width: 114px;
+height: 114px;
+background-position: 75% 100%;
+}
+
+.icon--multiDrawingStyle {
+width: 114px;
+height: 114px;
+background-position: 100% 0;
+}
+
+.icon--productionWorkflow {
+width: 114px;
+height: 114px;
+background-position: 100% 33.333333333333336%;
+}
+
+.icon--profit {
+width: 114px;
+height: 114px;
+background-position: 100% 66.66666666666667%;
+}
+
+.icon--spaceRatio {
+width: 114px;
+height: 114px;
+background-position: 100% 100%;
+}

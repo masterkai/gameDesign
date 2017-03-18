@@ -2,7 +2,11 @@
     @mixin clearfix;
 
     &--gutters {
-        margin-right:-20px;
+        margin-right: -20px;
+
+        &--balance {
+            margin-right: 0px;
+        }
     }
 
     &--gutters > div {

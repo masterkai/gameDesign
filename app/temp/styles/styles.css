@@ -505,6 +505,13 @@ a {
   }
 }
 
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+
+  .hidden-xs-l {
+    display: none;
+  }
+}
+
 .visible-xs {
 	display: block;
 }
@@ -524,6 +531,17 @@ a {
 
   .visible-sm {
     display: none;
+  }
+}
+
+.visible-xs-l {
+	display: none;
+}
+
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+
+  .visible-xs-l {
+    display: block;
   }
 }
 
@@ -618,6 +636,7 @@ a {
     -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     box-sizing: border-box;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 .form-control:focus {
@@ -628,6 +647,7 @@ a {
 
 .form-control::-moz-placeholder {
   color: #999;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   opacity: 1;
 }
 
@@ -648,6 +668,7 @@ a {
 .form-control[readonly],
 fieldset[disabled] .form-control {
     background-color: #eee;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     opacity: 1;
 }
 
@@ -727,7 +748,11 @@ textarea.form-control {
 }
 
 .row--gutters {
-  margin-right:-20px;
+  margin-right: -20px;
+}
+
+.row--gutters--balance {
+  margin-right: 0px;
 }
 
 .row--gutters > div {
@@ -852,7 +877,7 @@ textarea.form-control {
 
 }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
 
   .section-title {
     font-size: 1rem;
@@ -909,6 +934,35 @@ textarea.form-control {
   }
 }
 
+.section-title--smallest {
+  font-size: .6rem;
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+}
+
+@media (min-width: 530px) {
+
+  .section-title--smallest {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .section-title--smallest {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1010px) {
+
+  .section-title--smallest {
+    font-size: 2.2rem;
+    letter-spacing: .01rem;
+  }
+}
+
 .section-title--white {
   color: #fff;
 }
@@ -950,7 +1004,7 @@ textarea.form-control {
   display: none;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
 
   .section-title__icon {
     display: inline-block;
@@ -998,7 +1052,7 @@ textarea.form-control {
   display: none;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
 
   .section-title__icon-left {
     display: inline-block;
@@ -1111,27 +1165,165 @@ textarea.form-control {
 }
 
 .icon {
-	max-width: 2rem;
-	height: auto;
+	display: block;
+	margin: 0 auto;
+	-webkit-transform: scale(.5);
+	        transform: scale(.5);
+	-webkit-transform-origin: 25% 100%;
+	        transform-origin: 25% 100%;
 }
 
 @media (min-width: 530px) {
 
   .icon {
-    max-width: 3.2rem;
+    -webkit-transform: scale(.65);
+            transform: scale(.65);
   }
 }
 
 @media (min-width: 800px) {
 
   .icon {
-    max-width: 5rem;
+    -webkit-transform: scale(.8);
+            transform: scale(.8);
   }
 }
 
 @media (min-width: 1010px) {
 
   .icon {
-    max-width: 7rem;
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
+}
+
+/* Do not edit modules/_sprite directly as it is generated automatically by Gulp.
+Instead edit gulp/templates/sprite */
+
+.icon-add {
+    background-image: url('/assets/images/sprites/sprite-36e3ab1c.svg');
+}
+
+.no-svg .icon-add {
+    background-image: url('/assets/images/sprites/sprite-36e3ab1c.png');
+}
+
+.icon--3DArmorModeling {
+width: 114px;
+height: 114px;
+background-position: 25% 0;
+}
+
+.icon--3DCharacters {
+width: 114px;
+height: 114px;
+background-position: 75% 33.333333333333336%;
+}
+
+.icon--3DMonsterModeling {
+width: 114px;
+height: 114px;
+background-position: 0 33.333333333333336%;
+}
+
+.icon--VR360Camera {
+width: 114px;
+height: 114px;
+background-position: 25% 33.333333333333336%;
+}
+
+.icon--VRGameDevelopment {
+width: 114px;
+height: 114px;
+background-position: 50% 0;
+}
+
+.icon--VRGameEngine {
+width: 114px;
+height: 114px;
+background-position: 50% 33.333333333333336%;
+}
+
+.icon--VRGameInterface {
+width: 114px;
+height: 114px;
+background-position: 0 66.66666666666667%;
+}
+
+.icon--bgCreation {
+width: 114px;
+height: 114px;
+background-position: 25% 66.66666666666667%;
+}
+
+.icon--characterDesign {
+width: 114px;
+height: 114px;
+background-position: 50% 66.66666666666667%;
+}
+
+.icon--crossPlatFormApp {
+width: 114px;
+height: 114px;
+background-position: 75% 0;
+}
+
+.icon--gameDevelopment {
+width: 114px;
+height: 114px;
+background-position: 0 0;
+}
+
+.icon--gameEnvironmentDevelopment {
+width: 114px;
+height: 114px;
+background-position: 75% 66.66666666666667%;
+}
+
+.icon--gameFX {
+width: 114px;
+height: 114px;
+background-position: 0 100%;
+}
+
+.icon--gameObjectOutput {
+width: 114px;
+height: 114px;
+background-position: 25% 100%;
+}
+
+.icon--gameSettingDesign {
+width: 114px;
+height: 114px;
+background-position: 50% 100%;
+}
+
+.icon--marketingAnalysis {
+width: 114px;
+height: 114px;
+background-position: 75% 100%;
+}
+
+.icon--multiDrawingStyle {
+width: 114px;
+height: 114px;
+background-position: 100% 0;
+}
+
+.icon--productionWorkflow {
+width: 114px;
+height: 114px;
+background-position: 100% 33.333333333333336%;
+}
+
+.icon--profit {
+width: 114px;
+height: 114px;
+background-position: 100% 66.66666666666667%;
+}
+
+.icon--spaceRatio {
+width: 114px;
+height: 114px;
+background-position: 100% 100%;
 }
