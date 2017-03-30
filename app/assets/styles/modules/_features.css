@@ -3,37 +3,37 @@
 	position: relative;
 
 	&--game-planning {
-		background-image: url(/assets/images/GamePlanningBg.png);
+		background-image: url(../../assets/images/GamePlanningBg.png);
 		background-repeat:repeat;
     	background-position:50% 50%;
 		background-size: cover;
 	}
 
 	&--2DGameArt {
-		background-image: url(/assets/images/49189628_L.png);
+		background-image: url(../../assets/images/49189628_L.png);
 		background-repeat:repeat;
     	background-position:50% 50%;
 
 		@mixin atSmall {
-			background-image: url(/assets/images/2DGameArtBg.png);
+			background-image: url(../../assets/images/2DGameArtBg.png);
 		}
 
 	}
 
 	&--3DGameArt {
-		background-image: url(/assets/images/3DGameArtBg-small.png);
+		background-image: url(../../assets/images/3DGameArtBg-small.png);
 		background-repeat:repeat;
     	background-position:50% 50%;
     	background-size: cover;
 
     	@mixin atSmall {
-			background-image: url(/assets/images/3DGameArtBg.png);
+			background-image: url(../../assets/images/3DGameArtBg.png);
 			background-size: cover;
 		}
 	}
 
 	&--crossPlatformDevelopment {
-		background-image: url(/assets/images/crossPlatformBg.png);
+		background-image: url(../../assets/images/crossPlatformBg.png);
 		background-repeat:repeat;
     	background-position:50% 50%;
 	}

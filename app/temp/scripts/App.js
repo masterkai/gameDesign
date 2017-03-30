@@ -10337,8 +10337,6 @@
 
 	var Form = function Form() {
 	    _classCallCheck(this, Form);
-
-	    alert('test from Form');
 	};
 
 	exports.default = Form;

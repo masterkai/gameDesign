@@ -6,7 +6,7 @@ class Form {
 
 
 
-        alert('test from Form');
+
 
 
 
